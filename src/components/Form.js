@@ -21,7 +21,7 @@ function Form() {
     let onSubmit = (e)=>{
         e.preventDefault();
         console.log(values);
-        fetch('http://localhost:3001/create', {
+        fetch('http://localhost:3001/students', {
             method: 'POST',
             headers: {
               'Content-Type': 'application/json'
